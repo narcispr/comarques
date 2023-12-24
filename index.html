@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="column" id="comarques">
+            <div draggable="true" id="Alt Camp" class="draggable">Alt Camp</div>
+            <div draggable="true" id="Alt Empordà" class="draggable">Alt Empordà</div>
+            <div draggable="true" id="Alt Penedes" class="draggable">Alt Penedès</div>
+            <div draggable="true" id="Alt Urgell" class="draggable">Alt Urgell</div>
+            <div draggable="true" id="Alta Ribagorça" class="draggable">Alta Ribagorça</div>
+            <div draggable="true" id="Anoia" class="draggable">Anoia</div>
+            <div draggable="true" id="Bages" class="draggable">Bages</div>
+            <div draggable="true" id="Baix Camp" class="draggable">Baix Camp</div>
+            <div draggable="true" id="Baix Ebre" class="draggable">Baix Ebre</div>
+            <div draggable="true" id="Baix Empordà" class="draggable">Baix Empordà</div>
+            <div draggable="true" id="Baix Llobregat" class="draggable">Baix Llobregat</div>
+            <div draggable="true" id="Baix Penedes" class="draggable">Baix Penedès</div>
+            <div draggable="true" id="Barcelonès" class="draggable">Barcelonès</div>
+            <div draggable="true" id="Berguedà" class="draggable">Berguedà</div>
+            <div draggable="true" id="Cerdanya" class="draggable">Cerdanya</div>
+            <div draggable="true" id="Conca de Barberà" class="draggable">Conca de Barberà</div>
+            <div draggable="true" id="Garraf" class="draggable">Garraf</div>
+            <div draggable="true" id="Garrigues" class="draggable">Garrigues</div>
+            <div draggable="true" id="Garrotxa" class="draggable">Garrotxa</div>
+            <div draggable="true" id="Gironès" class="draggable">Gironès</div>
+            <div draggable="true" id="Maresme" class="draggable">Maresme</div>
+            <div draggable="true" id="Montsià" class="draggable">Montsià</div>
+            <div draggable="true" id="Noguera" class="draggable">Noguera</div>
+            <div draggable="true" id="Osona" class="draggable">Osona</div>
+            <div draggable="true" id="Pallars Jussà" class="draggable">Pallars Jussà</div>
+            <div draggable="true" id="Pallars Sobirà" class="draggable">Pallars Sobirà</div>
+            <div draggable="true" id="Pla de l'Estany" class="draggable">Pla de l'Estany</div>
+            <div draggable="true" id="Pla d'Urgell" class="draggable">Pla d'Urgell</div>
+            <div draggable="true" id="Priorat" class="draggable">Priorat</div>
+            <div draggable="true" id="Ribera d'Ebre" class="draggable">Ribera d'Ebre</div>
+            <div draggable="true" id="Ripollès" class="draggable">Ripollès</div>
+            <div draggable="true" id="Segarra" class="draggable">Segarra</div>
+            <div draggable="true" id="Segrià" class="draggable">Segrià</div>
+            <div draggable="true" id="Selva" class="draggable">Selva</div>
+            <div draggable="true" id="Solsonès" class="draggable">Solsonès</div>
+            <div draggable="true" id="Tarragones" class="draggable">Tarragonès</div>
+            <div draggable="true" id="Terra Alta" class="draggable">Terra Alta</div>
+            <div draggable="true" id="Urgell" class="draggable">Urgell</div>
+            <div draggable="true" id="Val d'Aran" class="draggable">Val d'Aran</div>
+            <div draggable="true" id="Vallès Occidental" class="draggable">Vallès Occidental</div>
+            <div draggable="true" id="Vallès Oriental" class="draggable">Vallès Oriental</div>
+            <div draggable="true" id="Moianès" class="draggable">Moianès</div>
+            <div draggable="true" id="Llucanès" class="draggable">Lluçanès</div>
+        </div>
+        <div class="column" id="slots">
+            <table class="infobox bordered" style="width:10em; text-align: left; font-size: 80%;" id="map">
+                <caption style="font-size: larger;"><b>Comarques de Catalunya</b></caption>
+                <tbody>
+                    <tr>
+                        <td colspan="2" style="text-align:center;">
+                            <div style="float: right; clear: right;">
+                                <div style="position: relative;">
+                                    <span typeof="mw:File"><span><img src="./media/catalunya2.png" decoding="async" width="450" height="430" id="mapa_img"/></span></span>
+                                    <!-- Slots per a comarques -->
+                                    <div id="all_comarques">
+                                        <div style="position: absolute; left:190px; top: 232px;"><div class="slot" id="Anoia"></div></div>
+                                        <div style="position: absolute; left:214px; top: 200px;"><div class="slot" id="Bages"></div></div>
+                                        <div style="position: absolute; left:150px; top: 204px;"><div class="slot" id="Segarra"></div></div>
+                                        <div style="position: absolute; left:170px; top: 152px;"><div class="slot" id="Solsones"></div></div>
+                                        <div style="position: absolute; left:130px; top: 248px;"><div class="slot" id="Conca de Barbera"></div></div>
+                                        <div style="position: absolute; left:242px; top: 148px;"><div class="slot" id="Lluçanès"></div></div>
+                                        <div style="position: absolute; left:246px; top: 188px;"><div class="slot" id="Moianès"></div></div>
+                                        <div style="position: absolute; left:282px; top: 160px;"><div class="slot" id="Osona"></div></div>
+                                        <div style="position: absolute; left:218px; top: 132px;"><div class="slot" id="Berguedà"></div></div>
+                                        <div style="position: absolute; left:210px; top: 92px;"><div class="slot" id="Cerdanya"></div></div>
+                                        <div style="position: absolute; left:158px; top: 104px;"><div class="slot" id="Alt Urgell"></div></div>
+                                        <div style="position: absolute; left:138px; top: 52px;"><div class="slot" id="Pallars Sobirà"></div></div>
+                                        <div style="position: absolute; left:86px; top: 20px;"><div class="slot" id="Val d'Aran"></div></div>
+                                        <div style="position: absolute; left:90px; top: 68px;"><div class="slot" id="Alta Ribagorça"></div></div>
+                                        <div style="position: absolute; left:98px; top: 116px;"><div class="slot" id="Pallars Jussà"></div></div>
+                                        <div style="position: absolute; left:98px; top: 168px;"><div class="slot" id="Noguera"></div></div>
+                                        <div style="position: absolute; left:126px; top: 224px;"><div class="slot" id="Urgell"></div></div>
+                                        <div style="position: absolute; left:94px; top: 208px;"><div class="slot" id="Pla d'Urgell"></div></div>
+                                        <div style="position: absolute; left:50px; top: 228px;"><div class="slot" id="Segrià"></div></div>
+                                        <div style="position: absolute; left:82px; top: 252px;"><div class="slot" id="Garrigues"></div></div>
+                                        <div style="position: absolute; left:202px; top: 252px;"><div class="slot" id="Alt Penedes"></div></div>
+                                        <div style="position: absolute; left:234px; top: 272px;"><div class="slot" id="Baix Llobregat"></div></div>
+                                        <div style="position: absolute; left:274px; top: 260px;"><div class="slot" id="Barcelonès"></div></div>
+                                        <div style="position: absolute; left:246px; top: 232px;"><div class="slot" id="Vallès Occidental"></div></div>
+                                        <div style="position: absolute; left:298px; top: 232px;"><div class="slot" id="Maresme"></div></div>
+                                        <div style="position: absolute; left:278px; top: 216px;"><div class="slot" id="Vallès Oriental"></div></div>
+                                        <div style="position: absolute; left:262px; top: 104px;"><div class="slot" id="Ripollès"></div></div>
+                                        <div style="position: absolute; left:310px; top: 116px;"><div class="slot" id="Garrotxa"></div></div>
+                                        <div style="position: absolute; left:354px; top: 96px;"><div class="slot" id="Alt Empordà"></div></div>
+                                        <div style="position: absolute; left:342px; top: 128px;"><div class="slot" id="Pla de l'Estany"></div></div>
+                                        <div style="position: absolute; left:338px; top: 160px;"><div class="slot" id="Gironès"></div></div>
+                                        <div style="position: absolute; left:322px; top: 188px;"><div class="slot" id="Selva"></div></div>
+                                        <div style="position: absolute; left:382px; top: 160px;"><div class="slot" id="Baix Empordà"></div></div>
+                                        <div style="position: absolute; left:210px; top: 296px;"><div class="slot" id="Garraf"></div></div>
+                                        <div style="position: absolute; left:166px; top: 280px;"><div class="slot" id="Baix Penedès"></div></div>
+                                        <div style="position: absolute; left:134px; top: 304px;"><div class="slot" id="Tarragonès"></div></div>
+                                        <div style="position: absolute; left:130px; top: 276px;"><div class="slot" id="Alt Camp"></div></div>
+                                        <div style="position: absolute; left:102px; top: 304px;"><div class="slot" id="Baix Camp"></div></div>
+                                        <div style="position: absolute; left:82px; top: 288px;"><div class="slot" id="Priorat"></div></div>
+                                        <div style="position: absolute; left:54px; top: 308px;"><div class="slot" id="Ribera d'Ebre"></div></div>
+                                        <div style="position: absolute; left:26px; top: 308px;"><div class="slot" id="Terra Alta"></div></div>
+                                        <div style="position: absolute; left:34px; top: 356px;"><div class="slot" id="Baix Ebre"></div></div>
+                                        <div style="position: absolute; left:26px; top: 388px;"><div class="slot" id="Montsià"></div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+    <div>
+        <button id="checkButton">Check</button>
+        <span>Counter: <span id="counter">0</span></span>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>

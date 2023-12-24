@@ -1,0 +1,40 @@
+.column {
+    float: left;
+    width: 45%;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    min-height: 100px;
+}
+
+.draggable {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid blue;
+    cursor: pointer;
+}
+
+.slot {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid green;
+    min-height: 20px;
+    color: inherit;
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.mapa_img {
+    margin-top: -10px;
+}
+
+#all_comarques {
+    column-count: 2;
+    column-gap: 20px;
+    font-size: 7pt; 
+    line-height: 6px;
+}
